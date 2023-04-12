@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class karyawan{
+	public:
+		string nama, gaji_pokok, jam_lembur, dinas_luar, presensi_kehadiran;
+			
+		karyawan(string nama, string gaji, string lembur, string dinas, string presensi){
+			karyawan:: nama=nama;
+			karyawan:: gaji_pokok=gaji;
+			karyawan:: jam_lembur=lembur;
+			karyawan:: dinas_luar=dinas;
+			karyawan:: presensi_kehadiran=presensi;	
+		
+			cout << karyawan::nama <<endl;
+			cout << karyawan::gaji_pokok <<endl;
+			cout << karyawan::jam_lembur <<endl;
+			cout << karyawan::dinas_luar <<endl;
+			cout << karyawan::presensi_kehadiran <<endl;
+	}
+	
+};
+
+int main(){
+	
+	karyawan karyawan1 = karyawan("Devina","wiehfb","4","30","212");
+	
+}
